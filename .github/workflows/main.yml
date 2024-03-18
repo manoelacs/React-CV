@@ -29,4 +29,6 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: dist   
-          commit_message: 'chore(deploy): CV'     
+          commit_message: 'chore(deploy): CV'   
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
