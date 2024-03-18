@@ -9,6 +9,7 @@ Just clone or fork the repository and edit [data.js](https://github.com/Maaato/r
 [Preview](https://react-resume-rho.vercel.app)
 
 ## Getting Started 👋
+
 ### Built With 🛠️
 
 - [React](https://es.reactjs.org)
@@ -17,19 +18,25 @@ Just clone or fork the repository and edit [data.js](https://github.com/Maaato/r
 - [React-helmet](https://github.com/nfl/react-helmet)
 
 ### Installation 🔧
+
 ```
 $ yarn install
 > Edit Schemas/Data.js with your personal information
 ```
+
 ### Running the app 🏃
+
 ```
 # dev mode
 $ yarn start or npm run start
 ```
 
 ### Features 💡
+
 - [Generate-CV-PDF](https://github.com/Maaato/react-resume/tree/feature/cv-pdf-generator)
 
 ## License :memo:
 
 This project is [MIT](LICENCE) licensed.
+
+## teste
