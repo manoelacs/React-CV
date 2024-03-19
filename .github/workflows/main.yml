@@ -18,18 +18,20 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-     
+          cache: 'yarn'
+
       - name: Install packages
         run: yarn install --frozen-lockfile
       - name: Building production bundle
         run: yarn build
-      - name: Deploy to GitHub Pages           
-        uses: crazy-max/ghaction-github-pages@v4 
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: gh-pages           
+          target_branch: gh-pages
           # Upload dist folder
-          build_dir: 'build'          
-          commit_message: 'chore(deploy): CV'   
+          build_dir: 'build'
+          commit_message: 'chore(deploy): CV'
+          keep_history: false
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
