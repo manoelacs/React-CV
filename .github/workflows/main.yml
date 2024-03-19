@@ -28,7 +28,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4 
         with:
           target_branch: gh-pages
-          build_dir: dist   
+          build_dir: build  
           commit_message: 'chore(deploy): CV'   
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
