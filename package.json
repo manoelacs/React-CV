@@ -1,6 +1,5 @@
 {
-  "homepage": "https://manoelacs.github.io/React-CV",
-  "name": "react-resume",
+  "name": "react-cv",
   "version": "2.0.0",
   "private": true,
   "type": "module",
