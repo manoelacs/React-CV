@@ -29,7 +29,7 @@ jobs:
         with:
           target_branch: gh-pages           
           # Upload dist folder
-          build_dir: './dist'          
+          build_dir: 'build'          
           commit_message: 'chore(deploy): CV'   
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
