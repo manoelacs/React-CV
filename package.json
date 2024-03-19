@@ -9,7 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix"
+    "lint:fix": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "predeploy": "vite run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
