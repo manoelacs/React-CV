@@ -10,7 +10,7 @@ export const Data = {
   aboutMe: {
     label: 'Profile',
     description:
-      "I'm a front-end developer specializing in React, Next.js, Gatsby, Javascript, Typescript, and React Native. With solid skills in these fields, I create interactive and dynamic user interfaces for web and mobile applications. With a passion for technology and problem-solving, I always seek exciting challenges to work collaboratively and bring ideas to life. My dedication to continuous learning and commitment to accessibility ensure that projects are high-quality and comprehensive. You can rely on a front-end developer committed to creating exceptional and impactful solutions. I also combine my passion for traveling and knowing new places with my passion for coding, and meeting new developers makes me  motivated for being better every day.",
+      "I'm a front-end developer specializing in React, Next.js, Gatsby, Javascript, Typescript, and React Native. With solid skills in these fields, I create interactive and dynamic user interfaces for web and mobile applications. With a passion for technology and problem-solving, I always seek exciting challenges to work collaboratively and bring ideas to life. I also combine my passion for traveling and knowing new places with my passion for coding, and meeting new developers makes me  motivated for being better every day.",
   },
   skills: {
     technicalLabel: 'Hard Skills',
