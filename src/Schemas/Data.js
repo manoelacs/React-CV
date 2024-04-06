@@ -5,7 +5,7 @@ export const Data = {
     location: 'Tirana, Albania',
     email: 'aleonamaissac@gmail.com',
     telephone: '+56 971999705',
-    image: 'images/profile.jpg',
+    image: 'images/profile.png',
   },
   aboutMe: {
     label: 'Profile',
