@@ -313,7 +313,7 @@ body.dark-theme {
 }
 
 .profile__description {
-  text-align: center;
+  text-align: justify;
 }
 
 .education__content,
@@ -489,8 +489,7 @@ body.dark-theme {
     display: inline-block;
   }
 
-  .section-title,
-  .profile__description {
+  .section-title {
     text-align: initial;
   }
 
