@@ -1,11 +1,5 @@
 import PropTypes from 'prop-types';
 
-Skills.protoTypes = {
-  technicalLabel: PropTypes.string.isRequired,
-  softLabel: PropTypes.string.isRequired,
-  technicalSkills: PropTypes.array.isRequired,
-  softSkills: PropTypes.array.isRequired,
-};
 export const Skills = ({
   technicalLabel,
   softLabel,
@@ -36,6 +30,13 @@ export const Skills = ({
       </section>
     </>
   );
+};
+
+Skills.protoTypes = {
+  technicalLabel: PropTypes.string.isRequired,
+  softLabel: PropTypes.string.isRequired,
+  technicalSkills: PropTypes.array.isRequired,
+  softSkills: PropTypes.array.isRequired,
 };
 
 const Skill = ({ skill }) => (
