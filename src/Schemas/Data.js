@@ -4,7 +4,7 @@ export const Data = {
     ocupation: 'Frontend Developer',
     location: 'Tirana, Albania',
     email: 'aleonamaissac@gmail.com',
-    telephone: '+56 971999705',
+    telephone: '+355 68 319 9287',
     image: 'images/profile.png',
   },
   aboutMe: {
